@@ -231,6 +231,10 @@ a {
   background-image: linear-gradient(180deg, #fff, #f4f8fe);
 }
 
+.section.full-width.hero.notice {
+  display: none;
+}
+
 .section.full-width.cta {
   padding-top: 80px;
   padding-bottom: 220px;
@@ -1742,6 +1746,12 @@ a {
   .section {
     width: 100%;
   }
+  .section.full-width.hero {
+    display: none;
+  }
+  .section.full-width.hero.notice {
+    display: block;
+  }
   .products-feature-slider-wrapper {
     display: none;
   }
@@ -1804,6 +1814,12 @@ a {
   .footer-brand-section {
     width: 220px;
   }
+  .navbar-wrapper {
+    display: none;
+  }
+  .section-wrapper.gradient {
+    display: none;
+  }
   .products-feature-item-info-image {
     background-image: url('../images/Speaker-session.png');
     box-shadow: none;
@@ -1825,6 +1841,9 @@ a {
   }
   .products-feature-item-info-link {
     color: #58a84d;
+  }
+  .section-wrapper-clean {
+    display: none;
   }
   .wrapper-550-width.left-align {
     width: auto;
@@ -1897,6 +1916,9 @@ a {
     padding-top: 40px;
     padding-bottom: 40px;
   }
+  .testimonial-section {
+    display: none;
+  }
   .h2 {
     font-size: 42px;
   }
@@ -1908,6 +1930,9 @@ a {
   }
   .arrow-left {
     left: -10px;
+  }
+  .section-wrapper-2 {
+    display: none;
   }
 }
 
