@@ -257,10 +257,6 @@ a {
   letter-spacing: -1.1px;
 }
 
-.section-heading-wrapper.notice {
-  display: none;
-}
-
 .section-heading-title {
   margin-top: 0px;
   margin-bottom: 16px;
@@ -1623,6 +1619,56 @@ a {
   background-color: #fff;
 }
 
+.feature-cards-card-info-subtitle-2 {
+  margin-top: 8px;
+  font-family: Roboto, sans-serif;
+  color: rgba(51, 44, 41, 0.64);
+  font-size: 1.125rem;
+  line-height: 1.78;
+}
+
+.section-heading-wrapper-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgba(20, 20, 20, 0.64);
+  font-size: 1.625rem;
+  text-align: center;
+  letter-spacing: -1.1px;
+}
+
+.section-wrapper-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-right: 64px;
+  padding-left: 64px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f8fe), to(#f4f8fe));
+  background-image: linear-gradient(180deg, #f4f8fe, #f4f8fe);
+}
+
 @media screen and (min-width: 1440px) {
   .cta-form-container-point-image {
     left: 72%;
@@ -1685,26 +1731,16 @@ a {
     margin-left: 0%;
     float: none;
   }
+  .section-wrapper-2 {
+    background-color: #f4f8fe;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+    background-image: linear-gradient(180deg, #fff, #fff);
+  }
 }
 
 @media screen and (max-width: 991px) {
   .section {
     width: 100%;
-  }
-  .section.full-width.cta {
-    display: none;
-  }
-  .section-heading-wrapper {
-    display: none;
-  }
-  .section-heading-wrapper.notice {
-    display: block;
-  }
-  .cta-form-wrapper {
-    display: none;
-  }
-  .header-image.mid-image {
-    display: none;
   }
   .products-feature-slider-wrapper {
     display: none;
@@ -1754,7 +1790,6 @@ a {
     display: none;
   }
   .footer {
-    display: none;
     padding-right: 40px;
     padding-left: 40px;
   }
@@ -1768,12 +1803,6 @@ a {
   }
   .footer-brand-section {
     width: 220px;
-  }
-  .navbar-wrapper.tablet {
-    display: none;
-  }
-  .section-wrapper.gradient {
-    display: none;
   }
   .products-feature-item-info-image {
     background-image: url('../images/Speaker-session.png');
@@ -1868,9 +1897,6 @@ a {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .testimonial-section {
-    display: none;
-  }
   .h2 {
     font-size: 42px;
   }
@@ -1930,7 +1956,7 @@ a {
     letter-spacing: -0.2px;
   }
   .cta-form-wrapper.mobile {
-    display: none;
+    display: block;
     max-width: 20rem;
   }
   .header-form-content-wrapper {
@@ -2088,6 +2114,19 @@ a {
   .slide-wrap {
     padding: 90px 50px;
   }
+  .feature-cards-card-info-subtitle-2 {
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+  }
+  .section-heading-wrapper-2 {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .section-wrapper-2 {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2099,7 +2138,6 @@ a {
     padding-top: 32px;
   }
   .cta-form-wrapper.mobile {
-    display: none;
     margin-right: 0px;
     margin-left: 0px;
     padding-right: 24px;
@@ -2131,7 +2169,6 @@ a {
     background-color: transparent;
   }
   .navbar-mobile-container {
-    display: none;
     height: 4.5rem;
     padding-right: 24px;
     padding-left: 24px;
